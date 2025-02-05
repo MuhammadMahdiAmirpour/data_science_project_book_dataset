@@ -9,36 +9,36 @@ This project is a task assignment for Datacolab company. The objective is to cre
 
 ## 🎯 Objective
 
-Create a Python script or notebook that combines NLP, Computer Vision, Machine Learning, and Data Visualization to analyze and understand a dataset of book summaries. This involves:
-- Cleaning the data
-- Exploring its characteristics through Exploratory Data Analysis (EDA)
-- Shortening the summaries
-- Transforming them into images
+The main objective of this project is to analyze and understand a dataset of book summaries using various data science techniques. The project involves:
+
+- **Data Preprocessing and EDA (Exploratory Data Analysis)**: Cleaning the data and exploring its characteristics to uncover patterns and insights.
+- **NLP (Natural Language Processing)**: Condensing the book summaries to make them shorter while preserving the main information.
+- **Computer Vision**: Converting the condensed text summaries into images using a Text-to-Image model.
 
 ## 🛠️ Requirements
 
 ### 1. Data Preprocessing and EDA
-- Clean the data by handling missing values.
-- Explore the dataset to understand its characteristics.
+- **Clean the data**: Handle missing values, remove duplicates, and ensure the data is in a usable format.
+- **Explore the dataset**: Understand the distribution of data, identify patterns, and generate summary statistics.
 
 ### 2. NLP Component
-- Condense the book summaries to make them shorter.
+- **Condense the book summaries**: Use NLP techniques to shorten the summaries while keeping the essential information intact.
 
 ### 3. Computer Vision Component
-- Convert the condensed text summaries into images using a Text-to-Image model.
+- **Convert text to images**: Use a Text-to-Image model to transform the condensed summaries into visual representations.
 
 ## 📊 Output
 
 The script should provide:
-- The condensed text summaries.
-- The converted images.
-- The findings from the exploratory data analysis.
+- **Condensed text summaries**: Shortened versions of the original book summaries.
+- **Converted images**: Visual representations of the condensed summaries.
+- **Findings from EDA**: Insights and patterns discovered during the exploratory data analysis.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8 or higher
-- Jupyter Notebook or any other Python IDE
+- **Python 3.8 or higher**: Ensure Python is installed on your system.
+- **Jupyter Notebook or any other Python IDE**: For running and editing the script/notebook.
 
 ### Installation
 1. **Clone the repository**
@@ -65,20 +65,20 @@ The script should provide:
 ```
 data_science_project_book_dataset/
 ├── data/
-│   └── book_summaries.csv
+│   └── book_summaries.csv        # Dataset containing book summaries
 ├── notebooks/
-│   └── analysis.ipynb
+│   └── analysis.ipynb            # Jupyter notebook for analysis
 ├── src/
-│   ├── data_preprocessing.py
-│   ├── nlp_component.py
-│   └── computer_vision_component.py
-├── requirements.txt
-└── README.md
+│   ├── data_preprocessing.py     # Script for data preprocessing and EDA
+│   ├── nlp_component.py          # Script for NLP tasks
+│   └── computer_vision_component.py  # Script for converting text to images
+├── requirements.txt              # Required Python packages
+└── README.md                     # Project documentation
 ```
 
 ## 📚 Data
 
-The dataset will be in the `data` directory and contains book summaries.
+The dataset will be located in the `data` directory and contains book summaries in a CSV file named `book_summaries.csv`.
 
 ## 🎓 Acknowledgments
 
